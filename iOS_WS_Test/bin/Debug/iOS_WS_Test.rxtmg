@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="iOS_WS_Test"
+      id="5e44b793-619b-4856-8816-8f70e66caa90"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="iOS_WS_Test"
+      id="5e44b793-619b-4856-8816-8f70e66caa90"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

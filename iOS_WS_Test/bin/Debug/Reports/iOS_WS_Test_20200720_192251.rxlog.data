@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.84s"
+		durationms="26840"
+		type="root"
+		rid="15b76dee0df209a0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="HMECL002180"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/20/2020 7:22:51 PM"
+		timestampiso="2020-07-20T13:52:51"
+		endtime="7/20/2020 7:23:18 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.711"
+			timeRelativeToTestModuleStartTime="00:26.711"
+			timeWallClock="19:23:17"
+			time="00:26.711"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Failed to load Excel data. Exception from HRESULT: 0x800A03EC
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Data.ExcelDataConnector.LoadDataInternal(Boolean loadRowData, ColumnCollection&amp; columns, RowCollection&amp; rows, Int32&amp; rowCount)&#13;&#10;   at Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   at Ranorex.Core.Data.DataConnector.LoadData(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   at Ranorex.Core.Data.DataCache.LoadInternal()&#13;&#10;   at Ranorex.Core.Testing.TestCaseNode.GetRangedDataRowCount()&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CollectAncestorsIterations(TestCaseNode testCaseNode)&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.&lt;>c__DisplayClass0_0.&lt;CalculateTestCasesExecCount>b__0(TestCaseNode tcn)&#13;&#10;   at Ranorex.Common.Extensions.EnumerableExtensions.ForAll[T](IEnumerable`1 e, Action`1 action)&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CalculateTestCasesExecCount(TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.TestSuiteStarted(TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__6()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

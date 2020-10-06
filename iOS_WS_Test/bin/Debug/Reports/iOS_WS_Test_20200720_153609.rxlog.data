@@ -1,0 +1,1136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.4m"
+		durationms="324383"
+		type="root"
+		rid="48d9ffbb0e96532"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="2"
+		totalfailedtestcasecount="3"
+		totalblockedtestcasecount="2"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="3"
+		totalblockedcount="2"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/20/2020 3:36:09 PM"
+		timestampiso="2020-07-20T10:06:09"
+		endtime="7/20/2020 3:41:34 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.8m"
+			durationms="289690"
+			type="test-suite"
+			rid="1af148bfc3339a4"
+			totalerrorcount="3"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="2"
+			totalfailedtestcasecount="3"
+			totalblockedtestcasecount="2"
+			childsuccesscount="2"
+			childfailedcount="3"
+			childblockedcount="2"
+			totalsuccesscount="2"
+			totalfailedcount="3"
+			totalblockedcount="2"
+			totalmaintenancemodecount="0"
+			testsuitename="iOS_WS_Test"
+			headertext="iOS_WS_Test"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="22.13s"
+				durationms="22126"
+				type="test-case"
+				rid="b74d4350b58da38"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC001_LaunchApp"
+				testcontainerid="1e844ef0-b3b2-4f2d-993f-993bc16f6360"
+				headertext="TC001_LaunchApp"
+				displayName="TC001_LaunchApp"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="22.08s"
+					durationms="22082"
+					type="test-module"
+					rid="20e026e8bc795eb0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="9780ea94-9c8c-454a-8cce-9fa74ff85311"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.162"
+						timeRelativeToTestModuleStartTime="00:00.033"
+						timeWallClock="15:36:44"
+						time="00:00.162"
+						level="Info"
+						category="Application">
+						<message>
+							Run mobile app 'com.pentair.pentairhome' on device 'Tanmay's iPhone'.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.041"
+						timeRelativeToTestModuleStartTime="00:08.911"
+						timeWallClock="15:36:53"
+						time="00:09.041"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.NEXT' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+							id="da4c402021d3427da9f53f4d22d56730"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.106"
+						timeRelativeToTestModuleStartTime="00:09.976"
+						timeWallClock="15:36:54"
+						time="00:10.106"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="90"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.218"
+						timeRelativeToTestModuleStartTime="00:12.088"
+						timeWallClock="15:36:56"
+						time="00:12.218"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.NEXT' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+							id="da4c402021d3427da9f53f4d22d56730"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="93"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.076"
+						timeRelativeToTestModuleStartTime="00:12.946"
+						timeWallClock="15:36:57"
+						time="00:13.076"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="97"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.163"
+						timeRelativeToTestModuleStartTime="00:15.033"
+						timeWallClock="15:36:59"
+						time="00:15.163"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.NEXT' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+							id="da4c402021d3427da9f53f4d22d56730"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="100"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.118"
+						timeRelativeToTestModuleStartTime="00:15.988"
+						timeWallClock="15:37:00"
+						time="00:16.118"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="104"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.213"
+						timeRelativeToTestModuleStartTime="00:18.083"
+						timeWallClock="15:37:02"
+						time="00:18.213"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.NEXT' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+							id="da4c402021d3427da9f53f4d22d56730"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="107"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.119"
+						timeRelativeToTestModuleStartTime="00:18.989"
+						timeWallClock="15:37:03"
+						time="00:19.119"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="8"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+							codeline="111"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="1.1m"
+				durationms="64718"
+				type="iteration-container"
+				rid="1ba8eaab04dd60c0"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC002_LoginSuccess"
+				headertext="TC002_LoginSuccess"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="72241fdb-4326-4b1d-8fa2-593a89dae8be"
+				datasource="TestData"
+				dataiterationcount="1">
+				<activity
+					result="Success"
+					duration="1.1m"
+					durationms="64708"
+					type="test-case"
+					rid="2e92f9f36f8d990"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC002_LoginSuccess"
+					testcontainerid="72241fdb-4326-4b1d-8fa2-593a89dae8be"
+					headertext="TC002_LoginSuccess"
+					displayName="TC002_LoginSuccess"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="EmailID">
+							tanmay.anand@happiestminds.com
+						</field>
+						<field
+							name="Password">
+							Password@123
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="1.1m"
+						durationms="64705"
+						type="test-module"
+						rid="4325b2a24ceeaba"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="login"
+						displayName="login"
+						moduleid="34e33e57-18bf-40ba-9f0c-eddaa22e5e0f"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="EmailID"
+								value="tanmay.anand@happiestminds.com">
+							</varbinding>
+							<varbinding
+								name="Password"
+								value="Password@123">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.795"
+							timeRelativeToTestModuleStartTime="00:00.008"
+							timeWallClock="15:37:13"
+							time="00:28.795"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$EmailID = 'tanmay.anand@happiestminds.com', $Password = 'Password@123'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.882"
+							timeRelativeToTestModuleStartTime="00:00.095"
+							timeWallClock="15:37:13"
+							time="00:28.882"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="108"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.946"
+							timeRelativeToTestModuleStartTime="00:03.159"
+							timeWallClock="15:37:16"
+							time="00:31.946"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$EmailID' on item 'ComPentairPentairhome.Login_Field'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='LoginTextInputEmail']"
+								itempath=".//text[@accessibilityid='LoginTextInputEmail']"
+								fullname="iOS_WS_TestRepository.ComPentairPentairhome.Login_Field"
+								id="2bdada8f5281430587bd2a4fa8a3ae28"
+								timeout="60000"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="111"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.512"
+							timeRelativeToTestModuleStartTime="00:46.725"
+							timeWallClock="15:38:00"
+							time="01:15.512"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="115"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:18.590"
+							timeRelativeToTestModuleStartTime="00:49.803"
+							timeWallClock="15:38:03"
+							time="01:18.590"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$Password' on item 'ComPentairPentairhome.Password_Field'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='LoginTextInputPassword']"
+								itempath=".//text[@accessibilityid='LoginTextInputPassword']"
+								fullname="iOS_WS_TestRepository.ComPentairPentairhome.Password_Field"
+								id="a543a69a9a0a458892233aba33e91fc4"
+								timeout="60000"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="118"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:18.874"
+							timeRelativeToTestModuleStartTime="00:50.087"
+							timeWallClock="15:38:03"
+							time="01:18.874"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="122"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:21.956"
+							timeRelativeToTestModuleStartTime="00:53.169"
+							timeWallClock="15:38:06"
+							time="01:21.956"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.LOGIN_Btn' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='LOG IN']"
+								itempath=".//container[@accessibilitylabel='LOG IN']"
+								fullname="iOS_WS_TestRepository.ComPentairPentairhome.LOGIN_Btn"
+								id="dfbf3074ef024e0ea94837e118ef7c0c"
+								timeout="60000"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="125"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:23.079"
+							timeRelativeToTestModuleStartTime="00:54.292"
+							timeWallClock="15:38:07"
+							time="01:23.079"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="129"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:33.185"
+							timeRelativeToTestModuleStartTime="01:04.398"
+							timeWallClock="15:38:17"
+							time="01:33.185"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 10s to exist. Associated repository item: 'ComPentairPentairhome.AddDevice_HomeDasboard'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Add a Device']/container[@accessibilitylabel='Add a Device']"
+								itempath=".//container[@accessibilitylabel='Add a Device']/container[@accessibilitylabel='Add a Device']"
+								fullname="iOS_WS_TestRepository.ComPentairPentairhome.AddDevice_HomeDasboard"
+								id="522ac32c8b874a25a6704ee4aff265b2"
+								timeout="10000"
+								codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\login.cs"
+								codeline="132"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="1.2m"
+				durationms="70288"
+				type="test-case"
+				rid="18dcb4c998eb27e8"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC003_NavigateToWSDashboard"
+				testcontainerid="835121bb-4db6-4608-9134-cc75b41922f8"
+				headertext="TC003_NavigateToWSDashboard"
+				displayName="TC003_NavigateToWSDashboard"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="70284"
+					type="test-module"
+					rid="3a5d79fa268491"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="WS_Dashboard"
+					displayName="WS_Dashboard"
+					moduleid="c3d76d28-df55-49ec-a024-6ec82f806d30"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 654 attempts within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.502"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="15:38:17"
+						time="01:33.502"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.591"
+						timeRelativeToTestModuleStartTime="00:03.092"
+						timeWallClock="15:38:21"
+						time="01:36.591"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.Device_Tab' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/device@3x.png']"
+							itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/device@3x.png']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.Device_Tab"
+							id="35a3285de6f14cffbbd7fc32e7030ebc"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:40.047"
+						timeRelativeToTestModuleStartTime="00:06.547"
+						timeWallClock="15:38:24"
+						time="01:40.047"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:43.169"
+						timeRelativeToTestModuleStartTime="00:09.670"
+						timeWallClock="15:38:27"
+						time="01:43.169"
+						level="Info"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_89f5db6e_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_89f5db6e_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Visible='My Devices') on item 'ComPentairPentairhome.MyDevicesHeader'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							itempath=".//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+							id="b4f747d3b1784f468a50ba07c548750c"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="92"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:43.375"
+						timeRelativeToTestModuleStartTime="01:09.876"
+						timeWallClock="15:39:27"
+						time="02:43.375"
+						level="Failure"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_b7fa1b57_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_b7fa1b57_trace_thumb.jpg">
+						<message>
+							Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 654 attempts within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							itempath=".//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+							id="b4f747d3b1784f468a50ba07c548750c"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="93"
+							failedStep="descendant-or-self::container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']"
+							bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+							loglvl="Failure"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:43.653"
+						timeRelativeToTestModuleStartTime="01:10.154"
+						timeWallClock="15:39:28"
+						time="02:43.653"
+						level="Error"
+						category="Module"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_5135dc8c_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_5135dc8c_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 654 attempts within 1m.).<br/>Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 654 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at iOS_WS_Test.WS_Dashboard.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+							codeline="93"
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							itempath=".//container[@accessibilitylabel='My Devices Home Tanmay Manpreet Ss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+							id="b4f747d3b1784f468a50ba07c548750c"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="3">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="1m"
+				durationms="62950"
+				type="test-case"
+				rid="227ad3f017240a9"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC004_VerifyWSDashboard"
+				testcontainerid="13d70f67-b172-4539-a3f0-d51f7c934ef5"
+				headertext="TC004_VerifyWSDashboard"
+				displayName="TC004_VerifyWSDashboard"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="62946"
+					type="test-module"
+					rid="a8520389c1f9fd"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Verify_WS_Dashboard"
+					displayName="Verify_WS_Dashboard"
+					moduleid="69528528-d2a5-479b-b341-f6c9257cfc5c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']' at step 'container[@accessibilitylabel='Est. Salt Level']' after 582 attempts within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="02:43.794"
+						timeRelativeToTestModuleStartTime="00:00.005"
+						timeWallClock="15:39:28"
+						time="02:43.794"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_WS_Dashboard.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:45.900"
+						timeRelativeToTestModuleStartTime="00:02.111"
+						timeWallClock="15:39:30"
+						time="02:45.900"
+						level="Info"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_b2a18573_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_b2a18573_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (AccessibilityLabel='Est. Salt Level') on item 'ComPentairPentairhome.EstSaltLevel_tile'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							itempath=".//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile"
+							id="9affb078f46f4b0082033f701ceb6c5c"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_WS_Dashboard.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:46.152"
+						timeRelativeToTestModuleStartTime="01:02.362"
+						timeWallClock="15:40:30"
+						time="03:46.152"
+						level="Failure"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_e9a3b631_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_e9a3b631_trace_thumb.jpg">
+						<message>
+							Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']' at step 'container[@accessibilitylabel='Est. Salt Level']' after 582 attempts within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							itempath=".//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile"
+							id="9affb078f46f4b0082033f701ceb6c5c"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_WS_Dashboard.cs"
+							codeline="86"
+							failedStep="container[@accessibilitylabel='Est. Salt Level']"
+							bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']/descendant-or-self::container[@accessibilitylabel='Est. Salt Level']"
+							loglvl="Failure"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:46.591"
+						timeRelativeToTestModuleStartTime="01:02.801"
+						timeWallClock="15:40:31"
+						time="03:46.591"
+						level="Error"
+						category="Module"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_9a08297c_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_9a08297c_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']' at step 'container[@accessibilitylabel='Est. Salt Level']' after 582 attempts within 1m.).<br/>Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']' at step 'container[@accessibilitylabel='Est. Salt Level']' after 582 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at iOS_WS_Test.Verify_WS_Dashboard.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_WS_Dashboard.cs:line 86
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_WS_Dashboard.cs"
+							codeline="86"
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							itempath=".//container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']/container[@accessibilitylabel='Est. Salt Level']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.EstSaltLevel_tile"
+							id="9affb078f46f4b0082033f701ceb6c5c"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="1m"
+				durationms="62939"
+				type="test-case"
+				rid="642221e97236c5c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC005_VerifyWSSettings"
+				testcontainerid="5d205262-525e-4fc5-9a53-b87243049143"
+				headertext="TC005_VerifyWSSettings"
+				displayName="TC005_VerifyWSSettings"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="62935"
+					type="test-module"
+					rid="16b660d33e5ae05b"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="VerifyWS_Settings"
+					displayName="VerifyWS_Settings"
+					moduleid="d0438b63-e399-4765-95bf-3b2a1e4882e8"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' at step 'descendant-or-self::container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' after 607 attempts within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="03:46.745"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="15:40:31"
+						time="03:46.745"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\VerifyWS_Settings.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:48.830"
+						timeRelativeToTestModuleStartTime="00:02.088"
+						timeWallClock="15:40:33"
+						time="03:48.830"
+						level="Info"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_47a4b25c_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_47a4b25c_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.WS_icon'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.WS_icon"
+							id="8ba576ac19e348cf9ecd6454339a0d0d"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\VerifyWS_Settings.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:49.016"
+						timeRelativeToTestModuleStartTime="01:02.274"
+						timeWallClock="15:41:33"
+						time="04:49.016"
+						level="Failure"
+						category="Validation"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_061eef6c_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_061eef6c_trace_thumb.jpg">
+						<message>
+							Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' at step 'descendant-or-self::container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' after 607 attempts within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.WS_icon"
+							id="8ba576ac19e348cf9ecd6454339a0d0d"
+							timeout="60000"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\VerifyWS_Settings.cs"
+							codeline="86"
+							failedStep="descendant-or-self::container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+							loglvl="Failure"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:49.519"
+						timeRelativeToTestModuleStartTime="01:02.776"
+						timeWallClock="15:41:34"
+						time="04:49.519"
+						level="Error"
+						category="Module"
+						errimg="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_be37543a_trace.jpg"
+						errthumb="images_iOS_WS_T_36e5bde8\iOS_WS_T_36e5bde8_be37543a_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon' does not match the specified value (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' at step 'descendant-or-self::container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' after 607 attempts within 1m.).<br/>Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.WS_icon'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' at step 'descendant-or-self::container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']' after 607 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at iOS_WS_Test.VerifyWS_Settings.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\VerifyWS_Settings.cs:line 86
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\VerifyWS_Settings.cs"
+							codeline="86"
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/waterSoftener@3x.png']"
+							fullname="iOS_WS_TestRepository.ComPentairPentairhome.WS_icon"
+							id="8ba576ac19e348cf9ecd6454339a0d0d"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="test-case"
+				rid="e4ee974b504180a"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TC006_VerifyWS_PO"
+				testcontainerid="152d2bb1-80a3-4163-8272-1bd998146a02"
+				headertext="TC006_VerifyWS_PO"
+				displayName="TC006_VerifyWS_PO"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="test-case"
+				rid="178e8e703f4eaaa4"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TC007_VerifyAdjustSalt"
+				testcontainerid="280b7f96-38d6-4222-8806-5b9c82bcc809"
+				headertext="TC007_VerifyAdjustSalt"
+				displayName="TC007_VerifyAdjustSalt"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+		</activity>
+	</activity>
+</report>

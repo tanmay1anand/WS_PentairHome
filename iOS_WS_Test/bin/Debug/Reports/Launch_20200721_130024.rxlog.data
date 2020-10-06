@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="29.99s"
+		durationms="29989"
+		type="root"
+		rid="3aa19c03347a00e9"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="HMECL002180"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/21/2020 1:00:26 PM"
+		timestampiso="2020-07-21T07:30:26"
+		endtime="7/21/2020 1:00:56 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Launch">
+		<detail>
+			Launch
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.204"
+			timeRelativeToTestModuleStartTime="00:07.204"
+			timeWallClock="13:00:34"
+			time="00:07.204"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Launch.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.235"
+			timeRelativeToTestModuleStartTime="00:17.235"
+			timeWallClock="13:00:44"
+			time="00:17.235"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device 'Tanmay's iPhone'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Launch.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.983"
+			timeRelativeToTestModuleStartTime="00:24.983"
+			timeWallClock="13:00:51"
+			time="00:24.983"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Launch.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

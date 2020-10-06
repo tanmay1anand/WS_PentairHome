@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="77017"
+		type="root"
+		rid="c2d0ba7146df930"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/20/2020 8:55:48 PM"
+		timestampiso="2020-07-20T15:25:48"
+		endtime="7/20/2020 8:57:05 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Verify_Adjust_Salt_01">
+		<detail>
+			Verify_Adjust_Salt_01
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.420"
+			timeRelativeToTestModuleStartTime="00:07.420"
+			timeWallClock="20:55:55"
+			time="00:07.420"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_Adjust_Salt_01.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.446"
+			timeRelativeToTestModuleStartTime="00:10.446"
+			timeWallClock="20:55:58"
+			time="00:10.446"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.AdjustSalt_link' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Adjust Salt']"
+				itempath=".//container[@accessibilitylabel='Adjust Salt']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.AdjustSalt_link"
+				id="85dfcc15b4eb44678bc0a9678d13d250"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_Adjust_Salt_01.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.810"
+			timeRelativeToTestModuleStartTime="01:07.810"
+			timeWallClock="20:56:55"
+			time="01:07.810"
+			level="Warn"
+			category="iOS">
+			<message>
+				The Ranorex Service App isn’t running on the mobile device. This limits automation functionality, e.g. starting or stopping apps won’t be possible. Make sure the Service App is installed and running.<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="inAppFallbackDeviceChannelUsed"
+				showInProgressDialog="False"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Verify_Adjust_Salt_01.cs"
+				codeline="86"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.020"
+			timeRelativeToTestModuleStartTime="01:17.020"
+			timeWallClock="20:57:05"
+			time="01:17.020"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.85s"
+		durationms="15853"
+		type="root"
+		rid="24cc561868acfea7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/14/2020 6:17:52 PM"
+		timestampiso="2020-07-14T12:47:52"
+		endtime="7/14/2020 6:18:07 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.089"
+			timeRelativeToTestModuleStartTime="00:07.089"
+			timeWallClock="18:17:59"
+			time="00:07.089"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device 'Tanmay's iPhone'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

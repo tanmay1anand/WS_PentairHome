@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="34.74s"
+		durationms="34738"
+		type="root"
+		rid="4cca69ac0306f41"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/20/2020 9:58:03 PM"
+		timestampiso="2020-07-20T16:28:03"
+		endtime="7/20/2020 9:58:38 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.632"
+			timeRelativeToTestModuleStartTime="00:09.632"
+			timeWallClock="21:58:13"
+			time="00:09.632"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device Tanmay's iPhone.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.254"
+			timeRelativeToTestModuleStartTime="00:18.254"
+			timeWallClock="21:58:21"
+			time="00:18.254"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.331"
+			timeRelativeToTestModuleStartTime="00:19.331"
+			timeWallClock="21:58:22"
+			time="00:19.331"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.446"
+			timeRelativeToTestModuleStartTime="00:22.446"
+			timeWallClock="21:58:26"
+			time="00:22.446"
+			level="Success"
+			category="User"
+			errimg="images_Recordin_475a25b7\Recordin_1ced0c6_rxlog.jpg"
+			errthumb="images_Recordin_475a25b7\Recordin_1ced0c6_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="93"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.447"
+			timeRelativeToTestModuleStartTime="00:22.447"
+			timeWallClock="21:58:26"
+			time="00:22.447"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.457"
+			timeRelativeToTestModuleStartTime="00:24.457"
+			timeWallClock="21:58:28"
+			time="00:24.457"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="98"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.660"
+			timeRelativeToTestModuleStartTime="00:25.660"
+			timeWallClock="21:58:29"
+			time="00:25.660"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.671"
+			timeRelativeToTestModuleStartTime="00:27.671"
+			timeWallClock="21:58:31"
+			time="00:27.671"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="105"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.651"
+			timeRelativeToTestModuleStartTime="00:28.651"
+			timeWallClock="21:58:32"
+			time="00:28.651"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.660"
+			timeRelativeToTestModuleStartTime="00:30.660"
+			timeWallClock="21:58:34"
+			time="00:30.660"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="112"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.737"
+			timeRelativeToTestModuleStartTime="00:31.737"
+			timeWallClock="21:58:35"
+			time="00:31.737"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

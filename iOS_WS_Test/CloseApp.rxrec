@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f9e862f2-6a3e-401e-a00f-6f8f9bed8bc1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApp"
+	namespace="iOS_WS_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="0a8a8ee4-bf1e-4996-b1bd-2fee8b6dd4f2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20765b57-bbda-47ea-ae60-0a314b7708c4"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="420893ff-b036-41d3-8d96-c68c2d5b52fc"
+	name="iOS_WS_TestRepository"
+	relativepath="iOS_WS_TestRepository.rxrep">
+		<codegen
+		classname="iOS_WS_TestRepository"
+		namespace="iOS_WS_Test">
+		</codegen>
+		<rootfolder
+		id="86fe5850-ab94-44e4-9bb2-fb364318e80c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

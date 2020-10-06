@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="32.36s"
+		durationms="32360"
+		type="root"
+		rid="745ae72d9b93360"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/14/2020 6:25:28 PM"
+		timestampiso="2020-07-14T12:55:28"
+		endtime="7/14/2020 6:26:00 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			WaitForAttributeEqual failed. The attribute 'Visible' did not equal the specified value 'yourValue' before the timeout of 5s. The last value found was 'True'. Associated repository item: 'iOS_WS_TestRepository.ComPentairPentairhome.LogInPageHeader'
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.929"
+			timeRelativeToTestModuleStartTime="00:07.929"
+			timeWallClock="18:25:36"
+			time="00:07.929"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device 'Tanmay's iPhone'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.791"
+			timeRelativeToTestModuleStartTime="00:16.791"
+			timeWallClock="18:25:45"
+			time="00:16.791"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.730"
+			timeRelativeToTestModuleStartTime="00:17.730"
+			timeWallClock="18:25:46"
+			time="00:17.730"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.739"
+			timeRelativeToTestModuleStartTime="00:19.739"
+			timeWallClock="18:25:48"
+			time="00:19.739"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.888"
+			timeRelativeToTestModuleStartTime="00:20.888"
+			timeWallClock="18:25:49"
+			time="00:20.888"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.899"
+			timeRelativeToTestModuleStartTime="00:22.899"
+			timeWallClock="18:25:51"
+			time="00:22.899"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.977"
+			timeRelativeToTestModuleStartTime="00:23.977"
+			timeWallClock="18:25:52"
+			time="00:23.977"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.984"
+			timeRelativeToTestModuleStartTime="00:25.984"
+			timeWallClock="18:25:54"
+			time="00:25.984"
+			level="Info"
+			category="Touch"
+			errimg="images_Recordin_99797a45\Recordin_99797a45_d75b2579_trace.jpg"
+			errthumb="images_Recordin_99797a45\Recordin_99797a45_d75b2579_trace_thumb.jpg">
+			<message>
+				Touch item 'ComPentairPentairhome.NEXT' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				itempath=".//container[@accessibilitylabel='NEXT']/container[@accessibilitylabel='NEXT']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.NEXT"
+				id="da4c402021d3427da9f53f4d22d56730"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="107"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.158"
+			timeRelativeToTestModuleStartTime="00:27.158"
+			timeWallClock="18:25:55"
+			time="00:27.158"
+			level="Info"
+			category="Wait"
+			errimg="images_Recordin_99797a45\Recordin_99797a45_4e4008e5_trace.jpg"
+			errthumb="images_Recordin_99797a45\Recordin_99797a45_4e4008e5_trace_thumb.jpg">
+			<message>
+				Waiting 5s for the attribute 'Visible' to equal the specified value 'yourValue'. Associated repository item: 'ComPentairPentairhome.LogInPageHeader'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Log In']/container[@accessibilitylabel='Log In']"
+				itempath=".//container[@accessibilitylabel='Log In']/container[@accessibilitylabel='Log In']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.LogInPageHeader"
+				id="d50396e5f07c455aa22c5991ac7e3aff"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="111"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.230"
+			timeRelativeToTestModuleStartTime="00:32.230"
+			timeWallClock="18:26:00"
+			time="00:32.230"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_99797a45\Recordin_99797a45_869ad24f_trace.jpg"
+			errthumb="images_Recordin_99797a45\Recordin_99797a45_869ad24f_trace_thumb.jpg">
+			<message>
+				WaitForAttributeEqual failed. The attribute 'Visible' did not equal the specified value 'yourValue' before the timeout of 5s. The last value found was 'True'. Associated repository item: 'iOS_WS_TestRepository.ComPentairPentairhome.LogInPageHeader'
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeEqual(Duration waitTimeout, String name, Object value)
+   at iOS_WS_Test.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs:line 112
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\Recording1.cs"
+				codeline="112"
+				loglvl="Error"
+				id="d50396e5f07c455aa22c5991ac7e3aff"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Log In']/container[@accessibilitylabel='Log In']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.LogInPageHeader"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

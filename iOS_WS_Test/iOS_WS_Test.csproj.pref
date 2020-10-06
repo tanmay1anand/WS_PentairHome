@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="VerifyLogout.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="iOS_WS_Test.rxtst" />
+    <Element value="CloseApp.rxrec" />
+    <Element value="VerifyLogout.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="iOS_WS_Test.UserCodeCollection1.SendValues()" />
+    </Array>
+  </Properties>
+</Properties>

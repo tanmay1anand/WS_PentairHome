@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7m"
+		durationms="99610"
+		type="root"
+		rid="1778f59a7bfb41cc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/16/2020 11:58:07 AM"
+		timestampiso="2020-07-16T06:28:07"
+		endtime="7/16/2020 11:59:47 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WS_Dashboard">
+		<detail>
+			WS_Dashboard
+		</detail>
+		<errormessage>
+			Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' can not be evaluated (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 793 attempts within 1m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.749"
+			timeRelativeToTestModuleStartTime="00:28.749"
+			timeWallClock="11:58:36"
+			time="00:28.749"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.809"
+			timeRelativeToTestModuleStartTime="00:31.809"
+			timeWallClock="11:58:39"
+			time="00:31.809"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Device_Tab' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/device@3x.png']"
+				itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/device@3x.png']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.Device_Tab"
+				id="35a3285de6f14cffbbd7fc32e7030ebc"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.132"
+			timeRelativeToTestModuleStartTime="00:36.132"
+			timeWallClock="11:58:43"
+			time="00:36.132"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.141"
+			timeRelativeToTestModuleStartTime="00:39.141"
+			timeWallClock="11:58:46"
+			time="00:39.141"
+			level="Info"
+			category="Validation"
+			errimg="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_872779c5_trace.jpg"
+			errthumb="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_872779c5_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (AccessibilityLabel&gt;'My Devices') on item 'ComPentairPentairhome.MyDevicesHeader'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				itempath=".//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+				id="22adb92e435e441bb7d7f0b003394844"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:39.187"
+			timeRelativeToTestModuleStartTime="01:39.187"
+			timeWallClock="11:59:46"
+			time="01:39.187"
+			level="Failure"
+			category="Validation"
+			errimg="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_de1c80ac_trace.jpg"
+			errthumb="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_de1c80ac_trace_thumb.jpg">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' can not be evaluated (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 793 attempts within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				itempath=".//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+				id="22adb92e435e441bb7d7f0b003394844"
+				timeout="60000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="93"
+				failedStep="descendant-or-self::container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']"
+				bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:39.193"
+			timeRelativeToTestModuleStartTime="01:39.193"
+			timeWallClock="11:59:46"
+			time="01:39.193"
+			level="Error"
+			category="Module"
+			errimg="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_de1c80ac_trace.jpg"
+			errthumb="images_WS_Dashb_7fcb986e\WS_Dashb_7fcb986e_de1c80ac_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'AccessibilityLabel' of element for item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader' can not be evaluated (Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 793 attempts within 1m.).<br/>Failed to find item 'iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']' at step 'descendant-or-self::container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']' after 793 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   at iOS_WS_Test.WS_Dashboard.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\WS_Dashboard.cs"
+				codeline="93"
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				itempath=".//container[@accessibilitylabel='My Devices Home Test 22 Manpreet alokss Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']/container[@accessibilitylabel='My Devices']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.MyDevicesHeader"
+				id="22adb92e435e441bb7d7f0b003394844"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

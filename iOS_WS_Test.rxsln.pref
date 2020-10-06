@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{AB0E8744-2151-4A5F-994F-1787B0529F88}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution iOS_WS_Test[iOS_WS_Test[]]]&#xD;&#xA;Solution iOS_WS_Test\iOS_WS_Test\VerifyLogout.rxrec&#xD;&#xA;Solution iOS_WS_Test\iOS_WS_Test\Verify_Product_Overview_02.rxrec" />
+  <StartupProject value="{AB0E8744-2151-4A5F-994F-1787B0529F88}" />
+</Properties>

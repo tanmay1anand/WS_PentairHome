@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0bf07ea7-6cfc-4033-8a1c-635779ce6785"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Launch"
+	namespace="iOS_WS_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<runmobileapprecorditem
+		application="com.pentair.pentairhome"
+		devicename="Tanmay's iPhone"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="420893ff-b036-41d3-8d96-c68c2d5b52fc"
+	name="iOS_WS_TestRepository"
+	relativepath="iOS_WS_TestRepository.rxrep">
+		<codegen
+		classname="iOS_WS_TestRepository"
+		namespace="iOS_WS_Test">
+		</codegen>
+		<rootfolder
+		id="86fe5850-ab94-44e4-9bb2-fb364318e80c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Launch.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

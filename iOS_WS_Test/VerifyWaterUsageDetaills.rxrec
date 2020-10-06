@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6aa19ab6-0255-4aca-8f14-28209a957a57"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyWaterUsageDetaills"
+	namespace="iOS_WS_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="420893ff-b036-41d3-8d96-c68c2d5b52fc"
+	name="iOS_WS_TestRepository"
+	relativepath="iOS_WS_TestRepository.rxrep">
+		<codegen
+		classname="iOS_WS_TestRepository"
+		namespace="iOS_WS_Test">
+		</codegen>
+		<rootfolder
+		id="86fe5850-ab94-44e4-9bb2-fb364318e80c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyWaterUsageDetaills.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

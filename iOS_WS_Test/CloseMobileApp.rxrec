@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="39a7ba43-8e05-4afa-83a2-af4633348a13"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseMobileApp"
+	namespace="iOS_WS_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<runmobileapprecorditem
+		application="com.pentair.pentairhome"
+		devicename="Tanmay's iPhone"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="89aaa7cd-6950-4dbe-8073-d0273373afba">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20765b57-bbda-47ea-ae60-0a314b7708c4"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="420893ff-b036-41d3-8d96-c68c2d5b52fc"
+	name="iOS_WS_TestRepository"
+	relativepath="iOS_WS_TestRepository.rxrep">
+		<codegen
+		classname="iOS_WS_TestRepository"
+		namespace="iOS_WS_Test">
+		</codegen>
+		<rootfolder
+		id="86fe5850-ab94-44e4-9bb2-fb364318e80c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseMobileApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

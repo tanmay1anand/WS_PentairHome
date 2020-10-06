@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d6a91995-6e9f-455f-b8fd-4860bb4b64b6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyRemoteMonitoring"
+	namespace="iOS_WS_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="13b2c772-5407-4f1b-844c-0aeb8aeb1951"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b2ddc209-1f2d-4f82-ab52-50644e07b407"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Remote Monitoring']/container[@accessibilitylabel='Remote Monitoring']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="420893ff-b036-41d3-8d96-c68c2d5b52fc"
+	name="iOS_WS_TestRepository"
+	relativepath="iOS_WS_TestRepository.rxrep">
+		<codegen
+		classname="iOS_WS_TestRepository"
+		namespace="iOS_WS_Test">
+		</codegen>
+		<rootfolder
+		id="86fe5850-ab94-44e4-9bb2-fb364318e80c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyRemoteMonitoring.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

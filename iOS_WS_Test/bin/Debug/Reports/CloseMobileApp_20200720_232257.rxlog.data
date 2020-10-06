@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="43.8s"
+		durationms="43802"
+		type="root"
+		rid="888cd8e0eaab2d7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tanmay.anand"
+		rxversion="9.3.2.0"
+		host="Tanmay's iPhone (Unknown)
+USB - 9edbeb8e64710dc2a3fa7c5dba78ba4761e882ee"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/20/2020 11:23:01 PM"
+		timestampiso="2020-07-20T17:53:01"
+		endtime="7/20/2020 11:23:45 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseMobileApp">
+		<detail>
+			CloseMobileApp
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.782"
+			timeRelativeToTestModuleStartTime="00:30.782"
+			timeWallClock="23:23:32"
+			time="00:30.782"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\CloseMobileApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.813"
+			timeRelativeToTestModuleStartTime="00:35.813"
+			timeWallClock="23:23:37"
+			time="00:35.813"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device 'Tanmay's iPhone'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\CloseMobileApp.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.574"
+			timeRelativeToTestModuleStartTime="00:43.574"
+			timeWallClock="23:23:45"
+			time="00:43.574"
+			level="Info"
+			category="Application">
+			<message>
+				Killing application containing item 'ComPentairPentairhome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']"
+				fullname="iOS_WS_TestRepository.ComPentairPentairhome.Self"
+				id="20765b57bbda47eaae600a314b7708c4"
+				timeout="30000"
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\CloseMobileApp.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.785"
+			timeRelativeToTestModuleStartTime="00:43.785"
+			timeWallClock="23:23:45"
+			time="00:43.785"
+			level="Info"
+			category="User">
+			<message>
+				KillApplication: is not supported. CloseApplication is called instead.
+			</message>
+			<metainfo
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\CloseMobileApp.cs"
+				codeline="90"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.786"
+			timeRelativeToTestModuleStartTime="00:43.786"
+			timeWallClock="23:23:45"
+			time="00:43.786"
+			level="Info"
+			category="User">
+			<message>
+				CloseApplication: gracePeriod is not ignored.
+			</message>
+			<metainfo
+				codefile="C:\Users\tanmay.anand\OneDrive - Happiest Minds Technologies Pvt Ltd\Documents\Ranorex\RanorexStudio Projects\iOS_WS_Test\iOS_WS_Test\CloseMobileApp.cs"
+				codeline="90"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

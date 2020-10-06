@@ -1,0 +1,1812 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iOS_WS_Test</name>
+    </assembly>
+    <members>
+        <member name="T:iOS_WS_Test.CloseApp">
+             <summary>
+            The CloseApp recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.CloseApp.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.CloseApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.CloseApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.CloseApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.CloseMobileApp">
+             <summary>
+            The CloseMobileApp recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.CloseMobileApp.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseMobileApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.CloseMobileApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseMobileApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.CloseMobileApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.CloseMobileApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.CloseMobileApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.iOS_WS_TestRepository">
+            <summary>
+            The class representing the iOS_WS_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the iOS_WS_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.iOS_WS_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepository.ProductSupport_link">
+            <summary>
+            The ProductSupport_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepository.ProductSupport_linkInfo">
+            <summary>
+            The ProductSupport_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepository.ComPentairPentairhome">
+            <summary>
+            The ComPentairPentairhome folder.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.iOS_WS_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder">
+            <summary>
+            The ComPentairPentairhomeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ComPentairPentairhome  folder.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NEXT">
+            <summary>
+            The NEXT item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NEXTInfo">
+            <summary>
+            The NEXT item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogInPageHeader">
+            <summary>
+            The LogInPageHeader item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogInPageHeaderInfo">
+            <summary>
+            The LogInPageHeader item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Login_Field">
+            <summary>
+            The Login_Field item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Login_FieldInfo">
+            <summary>
+            The Login_Field item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Password_Field">
+            <summary>
+            The Password_Field item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Password_FieldInfo">
+            <summary>
+            The Password_Field item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LOGIN_Btn">
+            <summary>
+            The LOGIN_Btn item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LOGIN_BtnInfo">
+            <summary>
+            The LOGIN_Btn item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Common_Dashboard_Header">
+            <summary>
+            The Common_Dashboard_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Common_Dashboard_HeaderInfo">
+            <summary>
+            The Common_Dashboard_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AddDevice_HomeDasboard">
+            <summary>
+            The AddDevice_HomeDasboard item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AddDevice_HomeDasboardInfo">
+            <summary>
+            The AddDevice_HomeDasboard item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.HomeDash_Header">
+            <summary>
+            The HomeDash_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.HomeDash_HeaderInfo">
+            <summary>
+            The HomeDash_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Device_Tab">
+            <summary>
+            The Device_Tab item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Device_TabInfo">
+            <summary>
+            The Device_Tab item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.EstSaltLevel_tile">
+            <summary>
+            The EstSaltLevel_tile item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.EstSaltLevel_tileInfo">
+            <summary>
+            The EstSaltLevel_tile item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsage_Tile">
+            <summary>
+            The WaterUsage_Tile item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsage_TileInfo">
+            <summary>
+            The WaterUsage_Tile item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsage_graphHeader">
+            <summary>
+            The WaterUsage_graphHeader item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsage_graphHeaderInfo">
+            <summary>
+            The WaterUsage_graphHeader item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrouw_WSG">
+            <summary>
+            The BackArrouw_WSG item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrouw_WSGInfo">
+            <summary>
+            The BackArrouw_WSG item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_icon">
+            <summary>
+            The WS_icon item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_iconInfo">
+            <summary>
+            The WS_icon item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverview_Link">
+            <summary>
+            The ProductOverview_Link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverview_LinkInfo">
+            <summary>
+            The ProductOverview_Link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Notifications_link">
+            <summary>
+            The Notifications_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Notifications_linkInfo">
+            <summary>
+            The Notifications_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.MyDeviceWS">
+            <summary>
+            The MyDeviceWS item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.MyDeviceWSInfo">
+            <summary>
+            The MyDeviceWS item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_List">
+            <summary>
+            The WS_List item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_ListInfo">
+            <summary>
+            The WS_List item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Header_WSDashboard">
+            <summary>
+            The Header_WSDashboard item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Header_WSDashboardInfo">
+            <summary>
+            The Header_WSDashboard item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.TestWSAutomation_List">
+            <summary>
+            The TestWSAutomation_List item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.TestWSAutomation_ListInfo">
+            <summary>
+            The TestWSAutomation_List item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Setting_Icon">
+            <summary>
+            The Setting_Icon item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Setting_IconInfo">
+            <summary>
+            The Setting_Icon item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NickName_Prod_Setting">
+            <summary>
+            The NickName_Prod_Setting item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NickName_Prod_SettingInfo">
+            <summary>
+            The NickName_Prod_Setting item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.RemoteMonitoring_Link">
+            <summary>
+            The RemoteMonitoring_Link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.RemoteMonitoring_LinkInfo">
+            <summary>
+            The RemoteMonitoring_Link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ContactAProfessional_link">
+            <summary>
+            The ContactAProfessional_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ContactAProfessional_linkInfo">
+            <summary>
+            The ContactAProfessional_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WiFi_link">
+            <summary>
+            The WiFi_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WiFi_linkInfo">
+            <summary>
+            The WiFi_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSalt_link">
+            <summary>
+            The AdjustSalt_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSalt_linkInfo">
+            <summary>
+            The AdjustSalt_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsageDetails_link">
+            <summary>
+            The WaterUsageDetails_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterUsageDetails_linkInfo">
+            <summary>
+            The WaterUsageDetails_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveDevice_link">
+            <summary>
+            The RemoveDevice_link item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveDevice_linkInfo">
+            <summary>
+            The RemoveDevice_link item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverview_Header">
+            <summary>
+            The ProductOverview_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverview_HeaderInfo">
+            <summary>
+            The ProductOverview_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ManufacturerPentair_field">
+            <summary>
+            The ManufacturerPentair_field item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ManufacturerPentair_fieldInfo">
+            <summary>
+            The ManufacturerPentair_field item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceID">
+            <summary>
+            The DeviceID item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceIDInfo">
+            <summary>
+            The DeviceID item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Model">
+            <summary>
+            The Model item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ModelInfo">
+            <summary>
+            The Model item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ControllerSoftwareVersion">
+            <summary>
+            The ControllerSoftwareVersion item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ControllerSoftwareVersionInfo">
+            <summary>
+            The ControllerSoftwareVersion item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.IoTSoftwareVersion">
+            <summary>
+            The IoTSoftwareVersion item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.IoTSoftwareVersionInfo">
+            <summary>
+            The IoTSoftwareVersion item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NicknameTestWSAutomation">
+            <summary>
+            The NicknameTestWSAutomation item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NicknameTestWSAutomationInfo">
+            <summary>
+            The NicknameTestWSAutomation item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Address">
+            <summary>
+            The Address item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AddressInfo">
+            <summary>
+            The Address item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_PO">
+            <summary>
+            The BackArrow_PO item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_POInfo">
+            <summary>
+            The BackArrow_PO item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CheckYourSaltLevel_Header">
+            <summary>
+            The CheckYourSaltLevel_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CheckYourSaltLevel_HeaderInfo">
+            <summary>
+            The CheckYourSaltLevel_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.StaticText_CYSL">
+            <summary>
+            The StaticText_CYSL item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.StaticText_CYSLInfo">
+            <summary>
+            The StaticText_CYSL item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NotReadyFor_SaltRefill">
+            <summary>
+            The NotReadyFor_SaltRefill item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NotReadyFor_SaltRefillInfo">
+            <summary>
+            The NotReadyFor_SaltRefill item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterAboveMySalt">
+            <summary>
+            The WaterAboveMySalt item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WaterAboveMySaltInfo">
+            <summary>
+            The WaterAboveMySalt item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.OutOfSalt">
+            <summary>
+            The OutOfSalt item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.OutOfSaltInfo">
+            <summary>
+            The OutOfSalt item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltTank">
+            <summary>
+            The SaltTank item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltTankInfo">
+            <summary>
+            The SaltTank item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.EstimatedSaltLevels_Text">
+            <summary>
+            The EstimatedSaltLevels_Text item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.EstimatedSaltLevels_TextInfo">
+            <summary>
+            The EstimatedSaltLevels_Text item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Add_Button">
+            <summary>
+            The Add_Button item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Add_ButtonInfo">
+            <summary>
+            The Add_Button item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Remove_Button">
+            <summary>
+            The Remove_Button item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Remove_ButtonInfo">
+            <summary>
+            The Remove_Button item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltAmount_Field">
+            <summary>
+            The SaltAmount_Field item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltAmount_FieldInfo">
+            <summary>
+            The SaltAmount_Field item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ADJUSTSALT_button">
+            <summary>
+            The ADJUSTSALT_button item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ADJUSTSALT_buttonInfo">
+            <summary>
+            The ADJUSTSALT_button item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSaltConfirmation">
+            <summary>
+            The AdjustSaltConfirmation item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSaltConfirmationInfo">
+            <summary>
+            The AdjustSaltConfirmation item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CANCEL">
+            <summary>
+            The CANCEL item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CANCELInfo">
+            <summary>
+            The CANCEL item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CONFIRM">
+            <summary>
+            The CONFIRM item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CONFIRMInfo">
+            <summary>
+            The CONFIRM item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltAdded">
+            <summary>
+            The SaltAdded item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SaltAddedInfo">
+            <summary>
+            The SaltAdded item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CONTINUE">
+            <summary>
+            The CONTINUE item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.CONTINUEInfo">
+            <summary>
+            The CONTINUE item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSaltHeader">
+            <summary>
+            The AdjustSaltHeader item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AdjustSaltHeaderInfo">
+            <summary>
+            The AdjustSaltHeader item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Date_Field">
+            <summary>
+            The Date_Field item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Date_FieldInfo">
+            <summary>
+            The Date_Field item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Notifications_Header">
+            <summary>
+            The Notifications_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Notifications_HeaderInfo">
+            <summary>
+            The Notifications_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AllNotifications">
+            <summary>
+            The AllNotifications item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AllNotificationsInfo">
+            <summary>
+            The AllNotifications item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Toggle_All">
+            <summary>
+            The Toggle_All item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Toggle_AllInfo">
+            <summary>
+            The Toggle_All item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Backarrow_Notifications">
+            <summary>
+            The Backarrow_Notifications item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Backarrow_NotificationsInfo">
+            <summary>
+            The Backarrow_Notifications item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductSupport_Header">
+            <summary>
+            The ProductSupport_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ProductSupport_HeaderInfo">
+            <summary>
+            The ProductSupport_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ConnectedSoftenerSupport">
+            <summary>
+            The ConnectedSoftenerSupport item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ConnectedSoftenerSupportInfo">
+            <summary>
+            The ConnectedSoftenerSupport item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.backArrow_PS">
+            <summary>
+            The backArrow_PS item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.backArrow_PSInfo">
+            <summary>
+            The backArrow_PS item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WiFi_Header">
+            <summary>
+            The WiFi_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WiFi_HeaderInfo">
+            <summary>
+            The WiFi_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NetworkName">
+            <summary>
+            The NetworkName item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NetworkNameInfo">
+            <summary>
+            The NetworkName item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SignalStrength">
+            <summary>
+            The SignalStrength item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SignalStrengthInfo">
+            <summary>
+            The SignalStrength item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeWiFiNetwork">
+            <summary>
+            The ChangeWiFiNetwork item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeWiFiNetworkInfo">
+            <summary>
+            The ChangeWiFiNetwork item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BluetoothPairingScreen">
+            <summary>
+            The BluetoothPairingScreen item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BluetoothPairingScreenInfo">
+            <summary>
+            The BluetoothPairingScreen item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_BTPair">
+            <summary>
+            The BackArrow_BTPair item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_BTPairInfo">
+            <summary>
+            The BackArrow_BTPair item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_WiFi">
+            <summary>
+            The BackArrow_WiFi item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.BackArrow_WiFiInfo">
+            <summary>
+            The BackArrow_WiFi item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Water_UsageDays_count">
+            <summary>
+            The Water_UsageDays_count item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Water_UsageDays_countInfo">
+            <summary>
+            The Water_UsageDays_count item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_deviceList">
+            <summary>
+            The WS_deviceList item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.WS_deviceListInfo">
+            <summary>
+            The WS_deviceList item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Account_Header">
+            <summary>
+            The Account_Header item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.Account_HeaderInfo">
+            <summary>
+            The Account_Header item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AccountsTab">
+            <summary>
+            The AccountsTab item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.AccountsTabInfo">
+            <summary>
+            The AccountsTab item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogOutlink">
+            <summary>
+            The LogOutlink item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogOutlinkInfo">
+            <summary>
+            The LogOutlink item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogOut">
+            <summary>
+            The LogOut item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.LogOutInfo">
+            <summary>
+            The LogOut item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft1">
+            <summary>
+            The SwipeLeft1 item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft1Info">
+            <summary>
+            The SwipeLeft1 item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft2">
+            <summary>
+            The SwipeLeft2 item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft2Info">
+            <summary>
+            The SwipeLeft2 item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft3">
+            <summary>
+            The SwipeLeft3 item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.SwipeLeft3Info">
+            <summary>
+            The SwipeLeft3 item info.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NextButton">
+            <summary>
+            The NextButton item.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.iOS_WS_TestRepositoryFolders.ComPentairPentairhomeAppFolder.NextButtonInfo">
+            <summary>
+            The NextButton item info.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Launch">
+             <summary>
+            The Launch recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Launch.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Launch.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Launch.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Launch.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Launch.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Launch.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Launch.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.login">
+             <summary>
+            The login recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.login.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.login.EmailID">
+            <summary>
+            Gets or sets the value of variable EmailID.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.login.Password">
+            <summary>
+            Gets or sets the value of variable Password.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Recording1.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.UserCodeCollection1">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.UserCodeCollection1.SendValues">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyAddSalt">
+             <summary>
+            The VerifyAddSalt recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyAddSalt.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyAddSalt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyAddSalt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyAddSalt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyAddSalt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyAddSalt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyAddSalt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyLogout">
+             <summary>
+            The VerifyLogout recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyLogout.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyLogout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyLogout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyLogout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyLogout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyLogout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyLogout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyNotifications">
+             <summary>
+            The VerifyNotifications recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyNotifications.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyNotifications.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyNotifications.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyNotifications.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyNotifications.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyNotifications.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyNotifications.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyProductSupport">
+             <summary>
+            The VerifyProductSupport recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyProductSupport.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyProductSupport.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyProductSupport.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyProductSupport.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyProductSupport.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyProductSupport.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyProductSupport.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyRemoteMonitoring">
+             <summary>
+            The VerifyRemoteMonitoring recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyRemoteMonitoring.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoteMonitoring.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyRemoteMonitoring.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoteMonitoring.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyRemoteMonitoring.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoteMonitoring.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoteMonitoring.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyRemoveSalt">
+             <summary>
+            The VerifyRemoveSalt recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyRemoveSalt.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoveSalt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyRemoveSalt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyRemoveSalt.SaltRemoved">
+            <summary>
+            Gets or sets the value of variable SaltRemoved.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoveSalt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyRemoveSalt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoveSalt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyRemoveSalt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyWaterUsageDetaills">
+             <summary>
+            The VerifyWaterUsageDetaills recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyWaterUsageDetaills.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWaterUsageDetaills.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWaterUsageDetaills.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWaterUsageDetaills.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyWaterUsageDetaills.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWaterUsageDetaills.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWaterUsageDetaills.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyWiFi">
+             <summary>
+            The VerifyWiFi recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyWiFi.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWiFi.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWiFi.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWiFi.Wifi_Name">
+            <summary>
+            Gets or sets the value of variable Wifi_Name.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWiFi.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyWiFi.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWiFi.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWiFi.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyWS_Settings">
+             <summary>
+            The VerifyWS_Settings recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyWS_Settings.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Settings.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWS_Settings.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWS_Settings.NickName">
+            <summary>
+            Gets or sets the value of variable NickName.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Settings.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyWS_Settings.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Settings.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Settings.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.VerifyWS_Setting_02">
+             <summary>
+            The VerifyWS_Setting_02 recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.VerifyWS_Setting_02.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Setting_02.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.VerifyWS_Setting_02.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Setting_02.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.VerifyWS_Setting_02.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Setting_02.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.VerifyWS_Setting_02.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_Add_Salt">
+             <summary>
+            The Verify_Add_Salt recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_Add_Salt.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Add_Salt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Add_Salt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Add_Salt.SaltAmount">
+            <summary>
+            Gets or sets the value of variable SaltAmount.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Add_Salt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_Add_Salt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Add_Salt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Add_Salt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_AdjustSalt_Screen">
+             <summary>
+            The Verify_AdjustSalt_Screen recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_AdjustSalt_Screen.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_AdjustSalt_Screen.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_AdjustSalt_Screen.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_AdjustSalt_Screen.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_AdjustSalt_Screen.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_AdjustSalt_Screen.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_AdjustSalt_Screen.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_Adjust_Salt_01">
+             <summary>
+            The Verify_Adjust_Salt_01 recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_Adjust_Salt_01.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Adjust_Salt_01.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Adjust_Salt_01.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Adjust_Salt_01.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_Adjust_Salt_01.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Adjust_Salt_01.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Adjust_Salt_01.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_Product_Overview">
+             <summary>
+            The Verify_Product_Overview recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_Product_Overview.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview.Manufacturer">
+            <summary>
+            Gets or sets the value of variable Manufacturer.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview.Device_ID">
+            <summary>
+            Gets or sets the value of variable Device_ID.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview.Model">
+            <summary>
+            Gets or sets the value of variable Model.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_Product_Overview.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_Product_Overview_02">
+             <summary>
+            The Verify_Product_Overview_02 recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_Product_Overview_02.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview_02.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.var">
+            <summary>
+            Gets or sets the value of variable var.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.Controller_Software_Version">
+            <summary>
+            Gets or sets the value of variable Controller_Software_Version.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.IoT_Software_Version">
+            <summary>
+            Gets or sets the value of variable IoT_Software_Version.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.NickName">
+            <summary>
+            Gets or sets the value of variable NickName.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_Product_Overview_02.Address">
+            <summary>
+            Gets or sets the value of variable Address.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview_02.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_Product_Overview_02.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview_02.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_Product_Overview_02.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.Verify_WS_Dashboard">
+             <summary>
+            The Verify_WS_Dashboard recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.Verify_WS_Dashboard.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_WS_Dashboard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.Verify_WS_Dashboard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_WS_Dashboard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.Verify_WS_Dashboard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_WS_Dashboard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.Verify_WS_Dashboard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:iOS_WS_Test.WS_Dashboard">
+             <summary>
+            The WS_Dashboard recording.
+             </summary>
+        </member>
+        <member name="F:iOS_WS_Test.WS_Dashboard.repo">
+            <summary>
+            Holds an instance of the iOS_WS_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.WS_Dashboard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:iOS_WS_Test.WS_Dashboard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.WS_Dashboard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:iOS_WS_Test.WS_Dashboard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:iOS_WS_Test.WS_Dashboard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:iOS_WS_Test.WS_Dashboard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
